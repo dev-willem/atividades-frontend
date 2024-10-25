@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Inter;
+    margin: 0;
+}
+
+/** 
+AQUI SERÁ SOMENTE A FORMATACAO DA HEADER
+******/
+
+header {
+    background: #F2F2F2;
+}
+
+header img {
+    padding: 29.51px 0 28.6px 0;
+}
+
+header nav {}
+
+header nav menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+header nav menu li {}
+
+header nav menu a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/** Seção principal de conteúdo */
+
+main {
+    flex-direction: column;
+    background-color: #dfdfdf;
+}
+
+main .breadcrumb {
+    padding-top: 32px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+
+    width: 100%;
+}
+
+main .breadcrumb a {
+    color: #3C4858;
+    text-decoration: none;
+}
+
+main .breadcrumb span {
+    color: #E5E9F2;
+}
+
+main header {
+    background-color: black;
+    color: #fff;
+    padding: 18px 0 43px 0;
+    width: 100%;
+}
+
+main header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 9px;
+    margin-top: 0;
+}
+
+main header small {}
+
+main .filtros {}
+
+main .filtros a {
+    text-decoration: none;
+    color: #8A9399;
+    border: solid 1px #8A9399;
+    padding: 5px 10px;
+
+}
+
+main .filtros a:hover {
+    background-color: #8A9399;
+    color: #fdfdfd;
+}
+
+main .conteudo {
+    margin: 0;
+    padding: 0;
+}
+
+main .conteudo h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+main .conteudo h2 small {
+    font-size: 16px;
+    color: #8A9399;
+    font-weight: 400;
+    margin-left: 18px;
+}
+main .conteudo .a {
+    margin: 0;
+    padding: 0;
+}
+
+.livros {
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 0 80px 0;
+    padding: 0;
+    justify-content: space-evenly;
+    row-gap: 1.2rem;
+
+    background-color: #fff;
+}
+
+.livros .livro {
+    border: solid 1px #8A9399;
+    width: 23rem;
+    height: 14rem;
+    flex-shrink: 0; 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+
+    background-color: #ffcccc;
+}
+
+.livros .livro h3 {
+    margin: 0;
+}
+
+.livros .livro figure {
+    margin: 0;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.livros .livro figure a {
+    display: flex;
+    align-items: center;
+    color: #2F80ED;
+    margin: 0;
+    padding: 0;
+}
+
+.livros .livro .right {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.livros .livro .right div:nth-child(3),
+.livros .livro .right a {
+    margin-left: 10px;
+    color: #8A9399;
+}
+
+
+footer {
+    background-color: #efeff0;
+    height: 4rem;
+}
