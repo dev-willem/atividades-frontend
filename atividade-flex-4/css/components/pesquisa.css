@@ -5,7 +5,7 @@ input {
     padding: 20px 0 20px 60px;
     width: 730px;
 
-    background: url("img/search-normal.svg") no-repeat 3% center;
+    background: #fff url("../../img/search-normal.svg") no-repeat 3% center;
 
     font-size: 14px;
 }
